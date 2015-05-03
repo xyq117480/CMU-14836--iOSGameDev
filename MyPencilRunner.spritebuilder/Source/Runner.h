@@ -6,8 +6,15 @@
 //  Copyright (c) 2015 Apportable. All rights reserved.
 //
 
-#import "CCSprite.h"
+#import <Foundation/Foundation.h>
+#import "cocos2d.h"
+#import "CCAnimation.h"
+#import "CCAction.h"
+
+
 
 @interface Runner : CCSprite
+    
+
 
 @end

@@ -11,4 +11,28 @@
 @interface Gameplay : CCNode <CCPhysicsCollisionDelegate>
 
 
+//enumerations
+typedef enum _ActionState
+{
+    kActionStateNone = 0,
+    kActionStateIdle = 1 ,
+    kActionStateWalkLeft = 2,
+    kActionStateWalk = 3,
+    kActionStateJump = 4,
+    kActionStateOut = 5
+} ActionState;
+
+
+//actionState
+@property(nonatomic,assign)ActionState actionState;
+@property(nonatomic,assign)BOOL actionGoing;
+@property(nonatomic,assign)BOOL actionIsMovingLeft;
+
+//velocity
+@property(nonatomic,assign)CGPoint velocity;
+
+
+
+
+
 @end
