@@ -167,7 +167,7 @@
     _spike1.physicsBody.collisionType=@"bound";
     _leftbound.physicsBody.collisionType=@"bound";
     _rightbound.physicsBody.collisionType=@"bound";
-    _topbound.physicsBody.collisionType=@"bound";
+    //_topbound.physicsBody.collisionType=@"bound";
     _pole_left_short.physicsBody.collisionType = @"bound1";
     _pole_left_short3.physicsBody.collisionType = @"bound1";
     

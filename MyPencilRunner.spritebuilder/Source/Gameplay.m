@@ -140,10 +140,10 @@
     _spike1.physicsBody.collisionType=@"bound";
     _leftbound.physicsBody.collisionType=@"bound";
     _rightbound.physicsBody.collisionType=@"bound";
-    _topbound.physicsBody.collisionType=@"bound";
-    _channelWall1.physicsBody.collisionType=@"bound";
-    _channelWall2.physicsBody.collisionType=@"bound";
-    _channelWall3.physicsBody.collisionType=@"bound";
+    //_topbound.physicsBody.collisionType=@"bound";
+    //_channelWall1.physicsBody.collisionType=@"bound";
+    //_channelWall2.physicsBody.collisionType=@"bound";
+    //_channelWall3.physicsBody.collisionType=@"bound";
     _spikeInAir1.physicsBody.collisionType=@"spike";
     _spikeInAir3.physicsBody.collisionType=@"spike";
     _coin2.physicsBody.collisionType=@"cherryFall";
