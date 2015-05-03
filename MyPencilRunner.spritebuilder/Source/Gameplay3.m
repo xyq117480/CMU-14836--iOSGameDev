@@ -511,7 +511,7 @@
     _actionState = kActionStateWalk;
     _actionIsMovingLeft = FALSE;
     [_runner stopAllActions];
-    _runner.physicsBody.velocity = ccp(60.f,0);
+    _runner.physicsBody.velocity = ccp(30.f,0);
     //[_runner runAction:[CCActionMoveBy actionWithDuration:1 position:ccp(50,0)]];
     
     
@@ -530,7 +530,7 @@
          CGPoint force = ccpMult(launchDirection, 800);
          [_runner.physicsBody applyForce:force];
          */
-        _runner.physicsBody.velocity = ccp(-60.f,0);
+        _runner.physicsBody.velocity = ccp(-30.f,0);
         
     }
     
